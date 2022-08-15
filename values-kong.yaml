@@ -1,0 +1,7 @@
+#proxy:
+#  annotations:
+#    service.beta.kubernetes.io/aws-load-balancer-ssl-cert: "arn:aws:acm:ap-northeast-2:898130718046:certificate/db1de4bc-7af4-45f8-918f-0dfd036b3e19"
+#    service.beta.kubernetes.io/aws-load-balancer-backend-protocol: tcp
+#    service.beta.kubernetes.io/aws-load-balancer-connection-idle-timeout: "3600"
+#    service.beta.kubernetes.io/aws-load-balancer-proxy-protocol: '*'
+#    service.beta.kubernetes.io/aws-load-balancer-ssl-ports: '*'
